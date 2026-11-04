@@ -1,0 +1,21 @@
+body {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+}
+header {
+    background-color: #4a0000;
+    padding: 20px;
+    border-bottom: 3px solid gold;
+}
+h1 {
+    color: #ffffff;
+    margin: 0;
+}
+.content {
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
