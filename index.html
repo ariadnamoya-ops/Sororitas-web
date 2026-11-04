@@ -7,6 +7,136 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="nav-brand">Sororitas Codex</div>
+        <ul class="nav-links">
+            <li><a href="#lore">Lore</a></li>
+            <li><a href="#ordenes">Órdenes</a></li>
+            <li><a href="#comparativa">Comparativa</a></li>
+            <li><a href="#unidades">Unidades</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Adepta Sororitas</h1>
+        <p>El Brazo Armado de la Eclesiarquía | Warhammer 40,000</p>
+    </header>
+
+    <div class="container">
+        <section id="comparativa" class="card">
+            <h2>Comparativa de Órdenes</h2>
+            <p>Usa el buscador para filtrar por nombre, estilo de juego o santa patrona:</p>
+            <input type="text" id="tablaFilter" class="search-input" placeholder="Buscar orden, especialidad o santa...">
+            
+            <div class="table-responsive">
+                <table id="ordenesTable">
+                    <thead>
+                        <tr>
+                            <th>Orden</th>
+                            <th>Santa Patrona</th>
+                            <th>Especialidad en Combate</th>
+                            <th>Colores Principales</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Nuestra Señora del Martirio</td>
+                            <td>Alicia Dominica</td>
+                            <td>Resistencia por fe y fervor post-mórtem</td>
+                            <td>Negro y Rojo</td>
+                        </tr>
+                        <tr>
+                            <td>Corazón Valeroso</td>
+                            <td>Santa Lucía</td>
+                            <td>Defensa inquebrantable y desgaste</td>
+                            <td>Negro y Blanco</td>
+                        </tr>
+                        <tr>
+                            <td>Sábana Santa</td>
+                            <td>Santa Silvana</td>
+                            <td>Ataques de precisión y sigilo</td>
+                            <td>Plata y Negro</td>
+                        </tr>
+                        <tr>
+                            <td>Rosa Sangrienta</td>
+                            <td>Santa Mina</td>
+                            <td>Cuerpo a cuerpo agresivo</td>
+                            <td>Rojo y Negro</td>
+                        </tr>
+                        <tr>
+                            <td>Cáliz Ébano</td>
+                            <td>Alicia Dominica</td>
+                            <td>Disciplina táctica y fuego cruzado</td>
+                            <td>Negro y Dorado</td>
+                        </tr>
+                        <tr>
+                            <td>Rosa Sacra</td>
+                            <td>Santa Arabella</td>
+                            <td>Moral inquebrantable e himnos de fe</td>
+                            <td>Blanco y Rojo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="unidades" class="card">
+            <h2>Unidades e Armamento Icónico</h2>
+            <ul>
+                <li><strong>Trinidad Sagrada de Armas:</strong> Bólter (fuego masivo), Lanzaflamas (purificación) y Fusión (destrucción de blindados).</li>
+                <li><strong>Serafines y Cefirinas:</strong> Unidades de salto rápido armadas con pistolas dobles o espadas de energía.</li>
+                <li><strong>Arrepentidas (Repentias):</strong> Hermanas que buscan redimir sus faltas luchando sin armadura y portando ecorchadoras a dos manos (*Eviscerators*).</li>
+                <li><strong>Exorcista:</strong> Tanque pesado equipado con un órgano de tubos litúrgico que dispara misiles de alto explosivo.</li>
+            </ul>
+        </section>
+
+    </div>
+
+        <section id="lore" class="card">
+            <h2>Orígenes y Lore General</h2>
+            <p>Las <strong>Adepta Sororitas</strong>, conocidas popularmente como las <em>Hermanas de Batalla</em>, nacieron durante la Era de la Apostasía. Tras los oscuros eventos provocados por el tirano Goge Vandire, el Santo Sebastian Thor reorganizó a las Hijas del Emperador en una orden militar dedicada a purgar la herejía, el xenos y la corrupción del Caos.</p>
+            <p>A diferencia de los Astartes (Marines Espaciales), las Sororitas son humanas sin modificaciones genéticas. Su fuerza radica en una disciplina inquebrantable, armaduras de energía artesanales y, sobre todo, una fe tan ferviente que se manifiesta en <strong>Actos de Fe</strong> verdaderamente milagrosos en el campo de batalla.</p>
+        </section>
+
+        <section id="ordenes" class="card">
+            <h2>Las 6 Grandes Órdenes Militantes</h2>
+            
+            <article class="orden">
+                <h3>1. Orden de Nuestra Señora del Martirio</h3>
+                <p><strong>Esquema de color:</strong> Armadura negra, túnica roja, interior blanco.</p>
+                <p>Fundada por Santa Alicia Dominica. Se caracterizan por buscar el martirio en combate como la máxima expresión de devoción. Son la orden más numerosa y famosa del Imperio.</p>
+            </article>
+
+            <article class="orden">
+                <h3>2. Orden del Corazón Valeroso</h3>
+                <p><strong>Esquema de color:</strong> Armadura negra, túnica blanca con reverso rojo.</p>
+                <p>Fundada por Santa Lucía. Inspiradas por el sufrimiento de su patrona, estas hermanas destacan por su resistencia física y mental inigualable. Rara vez retroceden, soportando castigos sobrehumanos.</p>
+            </article>
+
+            <article class="orden">
+                <h3>3. Orden de la Sábana Santa</h3>
+                <p><strong>Esquema de color:</strong> Armadura plata/gris, túnica negra con interior blanco.</p>
+                <p>Fundada por Santa Silvana. Especialistas en el sigilo, emboscadas y la caza de líderes heréticos. Creen fervientemente en el juicio rápido y letal.</p>
+            </article>
+
+            <article class="orden">
+                <h3>4. Orden de la Rosa Sangrienta</h3>
+                <p><strong>Esquema de color:</strong> Armadura roja, túnica negra con interior blanco.</p>
+                <p>Fundada por Santa Mina. Conocidas por su agresividad en el combate cuerpo a cuerpo. Canalizan su ira justa en asaltos devastadores utilizando espadas sierra y cargadores de fusión.</p>
+            </article>
+
+            <article class="orden">
+                <h3>5. Orden del Cáliz Ébano</h3>
+                <p><strong>Esquema de color:</strong> Armadura negra, túnica blanca con interior dorado.</p>
+                <p>La orden más antigua, guiada directamente por los preceptos originales de Alicia Dominica. Mantienen la doctrina más estricta y tradicionalista de la Eclesiarquía.</p>
+            </article>
+
+            <article class="orden">
+                <h3>6. Orden del Rosa Sacra</h3>
+                <p><strong>Esquema de color:</strong> Armadura blanca, túnica negra con interior rojo.</p>
+                <p>Fundada por Santa Arabella. Destacan por mantener una serenidad y calma absolutas incluso en medio del caos más absoluto de la guerra, entonando himnos sagrados mientras avanzan.</p>
+            </article>
+        </section>
 
     <header>
         <h1>Adepta Sororitas</h1>
@@ -72,6 +202,17 @@
         </section>
 
     </div>
+    <script>
+        document.getElementById('tablaFilter').addEventListener('keyup', function() {
+            let filter = this.value.toLowerCase();
+            let rows = document.querySelectorAll('#ordenesTable tbody tr');
+            
+            rows.forEach(row => {
+                let text = row.textContent.toLowerCase();
+                row.style.display = text.includes(filter) ? '' : 'none';
+            });
+        });
+    </script>
 
 </body>
 </html>
